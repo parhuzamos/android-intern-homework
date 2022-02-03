@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IBM Video Streaming Player Homework</title>
-  <style>
-    body {
-      font-family: monospace;
-      background: black;
-      color: gray;
-      padding: 40px;
-    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM Video Streaming Player Homework</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: black;
+            color: gray;
+            padding: 40px;
+        }
 
-    h4, .banner {
-      color: white;
-    }
+        h4, .banner {
+            color: white;
+        }
 
-    pre {
-      margin: 0;
-    }
+        pre {
+            margin: 0;
+        }
 
-    .code {
-      display: inline-block;
-      background: #222;
-      padding: 20px;
-      color: white;
-      overflow-x: auto;
-      max-width: 100%;
-    }
+        .code {
+            display: inline-block;
+            background: #222;
+            padding: 20px;
+            color: white;
+            overflow-x: auto;
+            max-width: 100%;
+        }
 
-    .container {
-      max-width: 560px;
-    }
+        .container {
+            max-width: 560px;
+        }
 
-    @media only screen and (max-width: 768px) {
-      body {
-        padding: 10px;
-      }
-      .container {
-        max-width: initial;
-      }
-      .banner {
-        font-size: 0.75em;
-      }
-    }
-  </style>
+        @media only screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                max-width: initial;
+            }
+
+            .banner {
+                font-size: 0.75em;
+            }
+        }
+    </style>
 </head>
 <body>
-  <pre class="banner">
+<pre class="banner">
   __        __      __      __  __ _____          __  
 ||__)|\/|  |__)/  \|  \ /\ |__)|_ (_  |   |   /\ |__) 
 ||__)|  |  |__)\__/|__//--\|   |____) |   |__/--\|__) 
@@ -58,37 +60,41 @@
 /--\| \||__/| \ \__/||__/  || \| | |__| \ | \|   | /--\__)| \
   </pre>
 
-  <div class="container">
+<div class="container">
     <p>
-    Thank you for applying for our open position. We are happy to have
-    you here. 🎉
+        Thank you for applying for our open position. We are happy to have
+        you here. 🎉
 
-    Your task is to build an application from the provided list items. The
-    UX of the app is entirely up to you. Please use git and commits but
-    no cross-platform framework (like React Native, Cordova, Xamarin, ...).
-    There is no time limit but work alone.
+        Your task is to build an application from the provided list items. The
+        UX of the app is entirely up to you. Please use git and commits but
+        no cross-platform framework (like React Native, Cordova, Xamarin, ...).
+        There is no time limit but work alone.
     </p>
-  </div>
+</div>
 
-  <div class="container">
+<div class="container">
     <h4>We would like to see a few features:</h4>
     <ul>
-      <li>Use at least 3 of the provided properties for displaying the items
-          in a scrollable list. Displaying an image in the items is nice to have.</li>
-      <li>Tapping an item opens the details, with at least 5 of them (master-detail).
-          Picture is optional again.</li>
-      <li>Paging is also an extra, just call the very same endpoint again,
-        repeated data is OK.</li>
-      <li>The app must not be perfect, don't hide your errors.
-          Also, comments are welcome.</li>
+        <li>Use at least 3 of the provided properties for displaying the items
+            in a scrollable list. Displaying an image in the items is nice to have.
+        </li>
+        <li>Tapping an item opens the details, with at least 5 of them (master-detail).
+            Picture is optional again.
+        </li>
+        <li>Paging is also an extra, just call the very same endpoint again,
+            repeated data is OK.
+        </li>
+        <li>The app must not be perfect, don't hide your errors.
+            Also, comments are welcome.
+        </li>
     </ul>
-  </div>
+</div>
 
-  <h4>API enpoint:</h4>
-  <div class="code">GET 'https://android-intern-homework.vercel.app/api'</div>
+<h4>API enpoint:</h4>
+<div class="code">GET 'https://android-intern-homework.vercel.app/api'</div>
 
-  <h4>Example payload:</h4>
-  <div class="code">
+<h4>Example payload:</h4>
+<div class="code">
     <pre>[
   {
     avatarURL: "https://exmaple.com/avatar.png"
@@ -102,7 +108,6 @@
   }
   ... [99 more items]
 ]</pre>
-  </div>
 </div>
 </body>
 </html>
