@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBM Video Streaming Player Homework</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: black;
+      color: gray;
+      padding: 40px;
+    }
+
+    h4, .banner {
+      color: white;
+    }
+
+    pre {
+      margin: 0;
+    }
+
+    .code {
+      display: inline-block;
+      background: #222;
+      padding: 20px;
+      color: white;
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    .container {
+      max-width: 560px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+      .container {
+        max-width: initial;
+      }
+      .banner {
+        font-size: 0.75em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <pre class="banner">
+  __        __      __      __  __ _____          __  
+||__)|\/|  |__)/  \|  \ /\ |__)|_ (_  |   |   /\ |__) 
+||__)|  |  |__)\__/|__//--\|   |____) |   |__/--\|__) 
+
+         __  __  __   __        ___ __ __       ___     __
+ /\ |\ ||  \|__)/  \||  \  ||\ | | |_ |__)|\ |   |  /\ (_ |_/
+/--\| \||__/| \ \__/||__/  || \| | |__| \ | \|   | /--\__)| \
+  </pre>
+
+  <div class="container">
+    <p>
+    Thank you for applying for our open position. We are happy to have
+    you here. 🎉
+
+    Your task is to build an application from the provided listitems. The
+    UX of the page is entirely up to you. You can use your
+    favourite framework but it's not mandatory.
+    </p>
+  </div>
+
+  <div class="container">
+    <h4>We would like to see a few features though:</h4>
+    <ul>
+      <li>Use at least 5 of the provided properties for displaying the playlist items. 🎨</li>
+      <li>Make the playlist items sortable by at least two properties 🍱</li>
+      <li>Make it easy for users to find items based on the description. 🔍️</li>
+    </ul>
+  </div>
+
+  <h4>API enpoint:</h4>
+  <div class="code">GET 'https://android-intern-homework.vercel.app/api'</div>
+
+  <h4>Example payload:</h4>
+  <div class="code">
+    <pre>[
+  {
+    avatarURL: "https://exmaple.com/avatar.png"
+    created: "2/21/2021"
+    description: "Example description"
+    email: "abc@example.com"
+    guid: "090206cb-c412-43ec-b11c-b65ecec270f1"
+    mediaType: "recorded"
+    title: "Traffic Affairs"
+    userName: "kshilleto0"
+  }
+  ... [99 more items]
+]</pre>
+  </div>
+</div>
+</body>
+</html>
